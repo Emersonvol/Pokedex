@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.pokeDex{
+    display: flex;
+    border: solid;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ff0000c0;
+    color: #fff;
+    background-image: url("./img/fundo/fundo_floresta.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    width: 50%;
+    height: 80vh;
+    margin: 8em 30em;
+}
+
+.pokeDex_nome{
+    display: flex;
+    text-transform: uppercase;
+    background-color: #005eff;
+    width: 100%;
+    margin-top: -10em;
+    justify-content: center;
+    height: 100px;
+    align-items: center;
+    
+    
+}
+.pokeDex img{ 
+    width: 400px;
+   height: 400px;
+
+}
+.poke__botao{
+    margin: 1em;
+    
+}   
+
+.pokeDex_habilidade {
+    margin-top: 0em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+    width: 100%;
+    
+}
+.pokeDex_habilidade p{
+    text-transform: uppercase;
+    background-color: #0004ffc0;
+
+}
+.pokeDex_habilidade h3{
+    color: #ff6a00ed;
+    background-color: #00e1ff;
+
+
+}
+button[type="submit"]{
+    border: none;
+    padding: 1em;
+    margin: 1em;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: #0084ffc0;
+    color: #fff;
+    border-radius: 20px;
+}
+
+
+button[type="submit"]:hover{
+    background-color: #00c8ff;
+  
+}
